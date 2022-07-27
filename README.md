@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basic boilerplate for a React/Rails monolith, for the purpose of Cloverleaf's full stack take home test.
 
-Things you may want to cover:
+#### Prerequisites
 
-* Ruby version
+- Ruby 2.7.4, node, yarn
 
-* System dependencies
+## Setup
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone reporsitory
+2. `gem install bundler`
+3. `bundle install`
+4. `yarn install`
+5. `rake db:create`
+6. `rails s`
